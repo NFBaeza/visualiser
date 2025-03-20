@@ -1,0 +1,25 @@
+body {
+  background-color: #228e86;
+  margin-top:  10px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h1 {
+  color: #f9f9f9;
+  font-size: 60px;
+  font-family: Arial, Helvetica;
+  text-align: center;
+  text-shadow: 3px 3px 4px black;
+  margin: 10px;
+}
+
+.app-background {
+  background-color: #3498db; /* Azul */
+  min-height: 100vh; /* Ocupa toda la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
