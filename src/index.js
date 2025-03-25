@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // <-- IMPORTANTE: usa 'client'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./styles.css"; //cambio general
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './styles.css';
 
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import DataPage from "./pages/DataPage";
+import RecommendationPage from "./pages/RecommendationPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -14,6 +15,7 @@ root.render(
     <Routes>
       <Route path="/" element={<Home />} />
 			<Route path="/DataPage" element={<DataPage />} />
+      <Route path="/RecommendationPage" element={<RecommendationPage/>} />
     </Routes>
   </Router>
 );

@@ -8,10 +8,9 @@ function CardComponent({ title, text, href}) {
 	return (
 		<Card className='custom-card'>
 		<Card.Body>
-			<Card.Title>{title}</Card.Title>
-			<Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-			<Link to={href} className="btn btn-primary">Ir a {title}</Link> {/* Navegación sin recarga */}
-			<Card.Text>{text}</Card.Text>
+			<Card.Title className='card-title'>{title}</Card.Title>
+			<Card.Subtitle className="mb-2 text-muted">{text}</Card.Subtitle>
+			<Link to={href} className="btn btn-primary card-link">Go to {title}</Link> {/* Navegación sin recarga */}
 		</Card.Body>
 		</Card>
   );

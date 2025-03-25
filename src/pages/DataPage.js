@@ -1,10 +1,11 @@
-import React from 'react';
+import React,  { useEffect, useState } from 'react';
 import CardPage from './CardPage';
 
 function DataPage() {
+
   return (
     <div>
-      <h1>Andere!!!</h1>
+      <h1>API Training!</h1>
       <CardPage/>
     </div>
   );
